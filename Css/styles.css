@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eee;
+}
+
+/* Header */
+
+.header-responsive {
+    display: none;
+}
+
+.header {
+    width: 100%;
+    max-width: 10800px;
+    margin: 0 auto;
+    background: #1d2323;
+}
+
+.oneago-name {
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 0px 60px 0px 10px;
+    color: #fff;
+}
+
+header nav ul li a {
+    color: #fff;
+    padding: 15px;
+    display: block;
+    font-family: 'Palanquin', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul {
+    overflow: hidden;
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+/* Introduce to Oneago*/
+
+.introduce {
+    padding: 40px 140px;
+    background-image: linear-gradient(to bottom right, #1d2323, #2E373B, #282D33);
+}
+
+.title-welcome {
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.slogan {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 20px;
+}
+
+.logo-oneago {
+    display: block;
+    margin: auto;
+}
+
+.description-oneago {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding: 10px auto;
+    color: white;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 40px 140px;
+    background-image: linear-gradient(to bottom right, #31755D, #4DB893);
+}
+
+.portfolio-title {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.portfolio-subtitle {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cgps-title, .wasapp-title, .ipc-title, .ctc-title, .ohm-title {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.coordinates-gps, .wasapp-direct, .ipc, .ctc, .ohm {
+    padding: 20px;
+    max-width: 250px;
+    display: inline-block;
+    max-height: 300px;
+    height: 200px;
+    border: solid 1px black;
+}
+
+.btn-cgps, .btn-ctc, .btn-ipc, .btn-ohm, .btn-wasapp {
+    display: block;
+    margin: auto;
+    padding: 10px auto;
+}
+
+.gps-img, .img-wasapp, .ipc-img, .ohm-img, .ctc-img {
+    display: block;
+    margin: auto;
+    padding: 15px 0px;
+}
+
+.coordinates-description, .ipc-description, .wasapp-description, .ctc-description, .ohm-description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+
+/* Services */
+
+.services-provides {
+    padding: 40px 140px;
+    background-image: linear-gradient(to bottom right, #502875, #614B75, #A07CC2);
+}
+
+.title-services {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.apps-making, .web-making, .dt-title {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.img-apps, .img-web, .td-img {
+    display: block;
+    margin: auto;
+    padding: 15px 0px;
+}
+
+.web-description, .app-description, .td-description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.apps-services, .web-services, .digital-transformation {
+    padding: 20px;
+    max-width: 250px;
+    display: inline-block;
+    max-height: 300px;
+    height: 300px;
+    border: solid 1px black;
+}
+
+.btn-more {
+    display: block;
+    margin: auto;
+    padding: 10px auto;
+}
+
+/* About us */
+
+.about-us {
+    padding: 40px 140px;
+    background-image: linear-gradient(to bottom right, #7864E8, #7A8AFF, #6496E8);
+}
+
+.about-title {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.about-description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn-about {
+    display: block;
+    margin: auto;
+    padding: 10px auto;
+}
+
+/* Contact us */
+
+.contact-form {
+    padding: 40px 140px;
+    background-image: linear-gradient(to bottom right, #E84858, #FF644F);
+}
+
+.contact {
+    border: 1px solid black;
+    padding: 40px;
+}
+
+div label, div input {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+.contact-title {
+    font-family: 'Palanquin', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.send {
+    display: block;
+    margin: auto;
+    padding: 10px auto;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    max-width: 10800px;
+    margin: 0 auto;
+    background: #1d2323;
+}
+
+footer nav ul li a {
+    color: #fff;
+    padding: 15px;
+    display: block;
+    font-family: 'Palanquin', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer nav ul {
+    overflow: hidden;
+    list-style: none;
+}
+
+footer nav ul li {
+    float: left;
+}
+
+.copy, .love-oneago {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.love, .oneago-footer {
+    font-family: 'Palanquin', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
