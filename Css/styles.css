@@ -114,13 +114,17 @@ header nav ul li {
     display: block;
     margin: auto;
     color: #fff;
-    font-weight: bold;
     border-radius: 5px;
     border-color: #eee;
 }
 
+button a span {
+    text-decoration: none;
+}
+
 .text {
     color: #fff;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -143,25 +147,30 @@ header nav ul li {
     text-align: center;
 }
 
-.cgps-title, .wasapp-title, .ipc-title, .ctc-title, .ohm-title {
+.cgps-title, .wasapp-title, .ipc-title, .ctc-title, .ohm-title, .jair-title, .funmarfancol-title {
     font-family: 'Palanquin', sans-serif;
     font-size: 18px;
     text-align: center;
 }
 
 .coordinates-gps, .wasapp-direct, .ipc, .ctc, .ohm {
+    margin: 10px;
     padding: 20px;
     max-width: 250px;
     min-width: 200px;
-    max-height: 320px;
-    height: 300px;
+    max-height: 350px;
+    height: 340px;
     border: solid 2px #aaa;
     border-radius: 5px;
     display: block;
 }
 
-.portfolio-apps {
-    display: -webkit-inline-flex;
+.portfolio-aplication {
+    display: inline-flex;
+}
+
+.portfolio-app {
+    display: inline-flex;
 }
 
 .btn-cgps, .btn-ctc, .btn-ipc, .btn-ohm, .btn-wasapp {
@@ -170,15 +179,70 @@ header nav ul li {
     padding: 10px auto;
 }
 
-.gps-img, .img-wasapp, .ipc-img, .ohm-img, .ctc-img {
+.gps-img, .img-wasapp, .ipc-img {
+    display: block;
+    margin: auto;
+    padding: 32px 0px 33px;
+    width: 100px;
+    height: 100px;
+}
+
+.ctc-img {
+    display: block;
+    margin: auto;
+    padding: 40px 0px 25px;
+    width: 100px;
+    height: 100px;
+}
+
+.ohm-img {
+    padding: 0px 0px 30px;
+    margin: auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.coordinates-description, .ipc-description, .wasapp-description, .ctc-description, .ohm-description, .jair-description, .funmarfancol-description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin: 10px auto 20px;
+    text-align: justify;
+}
+
+.jair, .funmarfancol {
+    margin: 10px;
+    padding: 20px;
+    max-width: 440px;
+    min-width: 425px;
+    max-height: 400px;
+    height: 375px;
+    border: solid 2px #aaa;
+    border-radius: 5px;
+    display: block;
+}
+
+.jair-img, .funmarfancol-img {
     display: block;
     margin: auto;
     padding: 15px 0px;
 }
 
-.coordinates-description, .ipc-description, .wasapp-description, .ctc-description, .ohm-description {
+.portfolio-website {
+    display: inline-flex;
+}
+
+.btn-web {
+    display: block;
+    margin: auto;
+    width: 350px;
+    max-width: 375px;
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255,255,255,0);
+    border-color: #aaa;
 }
 
 .btn-view {
@@ -219,7 +283,6 @@ header nav ul li {
 .img-apps, .img-web, .td-img {
     display: block;
     margin: auto;
-    padding: 15px 0px;
 }
 
 .img-apps, .td-img {
@@ -333,9 +396,11 @@ display: inline-flex;
     font-family: 'Raleway', sans-serif;
 }
 
+/* TVNB6-YCG2J-P4MGP-YTQ44-X2GV9 */
+
 input {
     background-color: rgba(255,255,255,0);
-    color: #E2E3FA;
+    color: #000;
 }
 
 div label, div input {
