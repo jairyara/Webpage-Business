@@ -147,13 +147,13 @@ button a span {
     text-align: center;
 }
 
-.cgps-title, .wasapp-title, .ipc-title, .ctc-title, .ohm-title, .jair-title, .funmarfancol-title {
+.cgps-title, .wasapp-title, .ipc-title, .ctc-title, .ohm-title, .you-title, .jair-title, .funmarfancol-title {
     font-family: 'Palanquin', sans-serif;
     font-size: 18px;
     text-align: center;
 }
 
-.coordinates-gps, .wasapp-direct, .ipc, .ctc, .ohm {
+.coordinates-gps, .wasapp-direct, .ipc, .ctc, .ohm, .you {
     margin: 10px;
     padding: 20px;
     max-width: 250px;
@@ -187,7 +187,7 @@ button a span {
     height: 100px;
 }
 
-.ctc-img {
+.ctc-img, .you-img {
     display: block;
     margin: auto;
     padding: 40px 0px 25px;
@@ -203,7 +203,7 @@ button a span {
     height: 100px;
 }
 
-.coordinates-description, .ipc-description, .wasapp-description, .ctc-description, .ohm-description, .jair-description, .funmarfancol-description {
+.coordinates-description, .ipc-description, .wasapp-description, .ctc-description, .ohm-description, .you-description, .jair-description, .funmarfancol-description {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     margin: 10px auto 20px;
@@ -213,8 +213,8 @@ button a span {
 .jair, .funmarfancol {
     margin: 10px;
     padding: 20px;
-    max-width: 440px;
-    min-width: 425px;
+    max-width: 900px;
+    min-width: 880px;
     max-height: 400px;
     height: 375px;
     border: solid 2px #aaa;
@@ -229,7 +229,7 @@ button a span {
 }
 
 .portfolio-website {
-    display: inline-flex;
+    display: inline-block;
 }
 
 .btn-web {
@@ -396,8 +396,6 @@ display: inline-flex;
     font-family: 'Raleway', sans-serif;
 }
 
-/* TVNB6-YCG2J-P4MGP-YTQ44-X2GV9 */
-
 input {
     background-color: rgba(255,255,255,0);
     color: #000;
@@ -429,6 +427,21 @@ div label, div input {
     color: #1d2323;
     font-weight: bold;
 }
+
+.access-links {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.access-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
 
 /* Footer */
 
