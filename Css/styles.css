@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0;
     padding: 0;
 }
@@ -19,6 +19,8 @@ body {
     margin: 0 auto;
     background: #1d2323;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     text-decoration: none;
 }
 
@@ -30,13 +32,22 @@ header div a span {
     padding: 10px 0px 0px 20px;
 }
 
-.oneago-name {
+span.oneago-name {
     font-family: 'Fredoka One', cursive;
     font-size: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 10px;
     padding: 10px 60px 10px 5px;
     color: #fff;
     text-decoration: none;
+}
+
+.oneago-brand {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -262,7 +273,7 @@ button a span {
 
 .services-provides {
     padding: 40px 140px;
-    background-image: linear-gradient(120deg, #31755D, #4DB893 40%);
+    background-image: linear-gradient(120deg, #0e68bb, #0f7ce9 40%);
 }
 
 .title-services {
